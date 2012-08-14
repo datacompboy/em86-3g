@@ -1,0 +1,6 @@
+Just simple module to enable 3G on Emdoor86 tablet.
+You can control 3G via 
+  cat 1 > /sys/em86-eg/start
+  cat 1 > /sys/em86-eg/stop
+to enable/disable it; by default on module load 3G are enabled.
+
